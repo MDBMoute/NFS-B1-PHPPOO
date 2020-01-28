@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="71bd63c8-c1e0-4c31-8795-11fe10a33f10" name="chaton" url="http://localhost/NFS-B1-PHPPOO">
+        <fileTransfer port="0" mountedRoot="C:\xampp\htdocs\NFS-B1-PHPPOO" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
