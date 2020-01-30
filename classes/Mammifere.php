@@ -1,7 +1,9 @@
 <?php
 
 
-class Mammifere
+class Mammifere extends Vertebre
 {
+    protected $mamelles = true;
+    protected $nombrePatte = 4;
 
 }

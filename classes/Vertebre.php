@@ -1,7 +1,9 @@
 <?php
 
 
-class Vertebre
+abstract class Vertebre extends Animal
 {
+    protected $nbreVerterbres;
+
 
 }

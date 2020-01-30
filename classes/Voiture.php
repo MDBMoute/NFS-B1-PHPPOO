@@ -1,9 +1,9 @@
 <?php
 
+class Voiture extends Vehicule
 
-class Voiture
 {
-    private $marque;
+    public $marque;
     public $modele;
     public $couleur;
     public $dimensions = [0, 0, 0];
@@ -24,9 +24,9 @@ class Voiture
         return $this->marque;
     }
 
-    public function setMarque($m) : void
+    public function setMarque($m): void
     {
-        return $this->marque = $m;
+        $this->marque = $m;
     }
 
     /**
@@ -114,8 +114,8 @@ class Voiture
         echo "je suis Michel";
     }
 
-    public function calculerEnergieCinetique() : float
+    public function calculerEnergieCinetique(): float
     {
-       return 0.5 * $this->masse * $this->vitesse ** 2;
+        return 0.5 * $this->masse * $this->vitesse ** 2;
     }
 }

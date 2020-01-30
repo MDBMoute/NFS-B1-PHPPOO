@@ -1,7 +1,7 @@
 <?php
 
 
-class Poisson
+class Poisson extends Vertebre
 {
 
 }
